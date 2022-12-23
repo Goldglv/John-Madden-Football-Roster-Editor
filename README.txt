@@ -35,6 +35,7 @@ Jersey Number
 Kick Power
 Kick Accuracy
 Man Coverage
+Overall Rating
 Pass Block
 Position
 Pursuit
