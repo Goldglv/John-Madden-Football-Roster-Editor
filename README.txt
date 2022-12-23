@@ -18,6 +18,8 @@ Madden NFL '94
 
 This also works with the Madden ‘93 ROM for Genesis that was updated to include the Jaguars and Panthers. Please contact me for further details in obtaining this ROM.
 
+The Editor will automatically remove the checksum for all games listed above so you should have no issue running the game after you modify the ROM.
+
 How to Use Extract Application from Zip file and Double-click on it, choose any Madden game listed above and the Editor will open, showing all of the player data for each team. Choose a team you want to edit by selecting it in the dropdown on the upper left. Editor converts ratings from 0-99 to 0-15 so the game can read it. After you're done changing the player data, make sure to click SAVE, the editor is designed to update ONE TEAM AT A TIME. If you edit one team and go on to another without saving, your changes will be lost.
 
 If you want to use the 'Import from Excel' feature you need to make sure of the following:
@@ -46,7 +48,7 @@ Weight
 
 Again, the column headers in your spreadsheet MUST MATCH EXACTLY with what's above.
 
-Also, for positions (which as of 12/22 are exactly what I'm looking for in my editor) YOU MUST MAKE SURE THEY MATCH EXACTLY below (PR/KR are not included in the spreadsheets so you can either update them manually within the editor or add them to your spreadsheet after you've downloaded them.):
+Also, for positions (which as of 12/22 are exactly what I'm looking for in my editor) YOU MUST MAKE SURE THEY MATCH EXACTLY below (PR/KR are not included in the spreadsheets so you can either update them manually within the editor or add them to your spreadsheet after you've downloaded them):
 
 C/CB/DT/FB/FS/HB/K/KR/LE/LG/LOLB/LT/MLB/P/PR/QB/RE/RG/ROLB/RT/SS/TE/WR
 
