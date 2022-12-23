@@ -27,53 +27,13 @@ If you want to use the 'Import from Excel' feature you need to make sure of the 
 I based my editor off the ratings from https://maddenratings.weebly.com/madden-nfl-23.html 
 You can download all of the rosters for each team here.  As of 12/22, these spreadsheets are working with my editor because the column headers match up.  You must make sure that the following column headers are included in whatever spreadsheet you import from.  You can have additional column headers, I just ignore them.  You must use the individual rosters, please don't mix teams into 1 spreadsheet and try to use it that way.  So 1 team in the editor, one spreadsheet with JUST that teams player data.
 
-Agility
-Awareness
-Break Tackle
-Carrying
-Catching
-Jersey Number
-Kick Power
-Kick Accuracy
-Man Coverage
-Pass Block
-Position
-Pursuit
-Run Block
-Speed
-Tackle
-Throw Accuracy Middle
-Throw On The Run
-Throw Power
-Weight
+Agility/Awareness/Break Tackle/Carrying/Catching/Jersey Number/Kick Power/Kick Accuracy/Man Coverage/Pass Block/Position/Pursuit/Run Block/Speed/Tackle/Throw Accuracy Middle/Throw On The Run/Throw Power/Weight
 
 Again, the column headers in your spreadsheet MUST MATCH EXACTLY with what's above.
 
 Also, for positions (which as of 12/22 are exactly what I'm looking for in my editor) YOU MUST MAKE SURE THEY MATCH EXACTLY below (PR/KR are not included in the spreadsheets so you can either update them manually within the editor or add them to your spreadsheet after you've downloaded them.):
 
-C
-CB
-DT
-FB
-FS
-HB
-K
-KR
-LE
-LG
-LOLB
-LT
-MLB
-P
-PR
-QB
-RE
-RG
-ROLB
-RT
-SS
-TE
-WR
+C/CB/DT/FB/FS/HB/K/KR/LE/LG/LOLB/LT/MLB/P/PR/QB/RE/RG/ROLB/RT/SS/TE/WR
 
 All of these columns and positions are included in the spreadsheets from the link I mentioned above so it would be much easier to use those.  One IMPORTANT note, within the editor, for example, you have QB1 and QB2.  I thought about manually updating all the positions in the spreadsheet first but that would take forever so what I did was base the order off the OVERALL RATING in the spreadsheet.  So the higher rated QB qould go into QB1, next rated QB2....and so on.  One issue I found was when 2 players overall rating is the same, based on how the editor sorts it before it's imported, you could get either player as QB1.  Example is Tua Tagovailoa and Teddy Bridgewater are both rated 75 so sometimes Editor makes Bridgewater QB1 which isn't correct.  Easy fix is to fix it after the import then SAVE it or just edit it within the spreadsheet, just change Tua overall rating to 76 and you're done.
 
