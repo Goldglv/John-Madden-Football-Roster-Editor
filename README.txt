@@ -24,7 +24,25 @@ If you want to use the 'Import from Excel' feature you need to make sure of the 
 
 I based my editor off the ratings from https://maddenratings.weebly.com/madden-nfl-23.html You can download all of the rosters for each team here. As of 12/22, these spreadsheets are working with my editor because the column headers match up. You must make sure that the following column headers are included in whatever spreadsheet you import from. You can have additional column headers, I just ignore them. You must use the individual rosters, please don't mix teams into 1 spreadsheet and try to use it that way. So 1 team in the editor, one spreadsheet with JUST that teams player data.
 
-Agility/Awareness/Break Tackle/Carrying/Catching/Jersey Number/Kick Power/Kick Accuracy/Man Coverage/Pass Block/Position/Pursuit/Run Block/Speed/Tackle/Throw Accuracy Middle/Throw On The Run/Throw Power/Weight
+Agility
+Awareness
+Break Tackle
+Carrying
+Catching
+Jersey Number
+Kick Power
+Kick Accuracy
+Man Coverage
+Pass Block
+Position
+Pursuit
+Run Block
+Speed
+Tackle
+Throw Accuracy Middle
+Throw On The Run
+Throw Power
+Weight
 
 Again, the column headers in your spreadsheet MUST MATCH EXACTLY with what's above.
 
