@@ -53,7 +53,7 @@ Also, for positions (which as of 12/22 are exactly what I'm looking for in my ed
 
 C/CB/DT/FB/FS/HB/K/KR/LE/LG/LOLB/LT/MLB/P/PR/QB/RE/RG/ROLB/RT/SS/TE/WR
 
-Editor/Spreadsheet/Positon Name
+## **Editor/Spreadsheet/Positon Name**
 
 - QB - QB - Quarterback
 - HB - HB - Halfback
