@@ -1,4 +1,4 @@
-### John Madden Football Roster Editor for Genesis/Super Nintendo
+# John Madden Football Roster Editor for Genesis/Super Nintendo
 
 Latest release: https://github.com/Goldglv/John-Madden-Football-Roster-Editor/releases
 
@@ -12,8 +12,8 @@ Features This app will enable you to update Rosters for the following Systems/Ma
 - Madden NFL '94 
 - Madden NFL '98 (Will update player numbers but not player names)
 
-Super Nintendo 
-Madden NFL '94
+## ** Super Nintendo 
+- Madden NFL '94
 
 This also works with the Madden ‘93 ROM for Genesis that was updated to include the Jaguars and Panthers. Please contact me for further details in obtaining this ROM.
 
