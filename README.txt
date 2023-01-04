@@ -1,7 +1,7 @@
 #John-Madden-Football-Roster-Editor
 John Madden Football Roster Editor for Genesis/Super Nintendo
 
-Latest release: https://github.com/Goldglv/John-Madden-Football-Roster-Editor/releases/tag/v2.1
+Latest release: https://github.com/Goldglv/John-Madden-Football-Roster-Editor/releases
 
 Features This app will enable you to update Rosters for the following Systems/Madden Football Games:
 
