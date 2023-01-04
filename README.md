@@ -12,7 +12,7 @@ Features This app will enable you to update Rosters for the following Systems/Ma
 - Madden NFL '94 
 - Madden NFL '98 (Will update player numbers but not player names)
 
-## ** Super Nintendo **
+## **Super Nintendo**
 - Madden NFL '94
 
 This also works with the Madden ‘93 ROM for Genesis that was updated to include the Jaguars and Panthers. Please contact me for further details in obtaining this ROM.
@@ -55,34 +55,34 @@ C/CB/DT/FB/FS/HB/K/KR/LE/LG/LOLB/LT/MLB/P/PR/QB/RE/RG/ROLB/RT/SS/TE/WR
 
 Editor/Spreadsheet/Positon Name
 
-QB - QB - Quarterback
-HB - HB - Halfback
-FB - FB - Fullback
-KR - KR - Kick Returner
-PR - PR - Punt Returner
-LT - LT - Left Tackle
-LG - LG - Left Guard
-C - C - Center
-RG - RG - RIght Guard
-RT - RT - Right Tackle
-WR - WR - Wide Receiver
-TE - TE - Tight End
-K - K - Kicker
-P - P - Punter
-LDE - LE - Left Defensive End
-LDT - DT - Left Defensive Tackle
-RDT - DT - Right Defensive Tackle
-RDE - RE - Right Defensive End
-LOLB - LOLB - Left Outside Linebacker
-LILB - MLB - Left Inside Linebacker
-RILB - MLB - Right Inside Linebacker
-ROLB - ROLB - Right Outside Linebacker
-LCB1 - CB - Left Cornerback 1
-RCB1 - CB - Right Cornerback 1
-LCB2 - CB - Left Cornerback 2
-RCB2 - CB - Right Cornerback 2
-SS - SS - Strong Saftey
-FS - FS - Free Safety
+- QB - QB - Quarterback
+- HB - HB - Halfback
+- FB - FB - Fullback
+- KR - KR - Kick Returner
+- PR - PR - Punt Returner
+- LT - LT - Left Tackle
+- LG - LG - Left Guard
+- C - C - Center
+- RG - RG - RIght Guard
+- RT - RT - Right Tackle
+- WR - WR - Wide Receiver
+- TE - TE - Tight End
+- K - K - Kicker
+- P - P - Punter
+- LDE - LE - Left Defensive End
+- LDT - DT - Left Defensive Tackle
+- RDT - DT - Right Defensive Tackle
+- RDE - RE - Right Defensive End
+- LOLB - LOLB - Left Outside Linebacker
+- LILB - MLB - Left Inside Linebacker
+- RILB - MLB - Right Inside Linebacker
+- ROLB - ROLB - Right Outside Linebacker
+- LCB1 - CB - Left Cornerback 1
+- RCB1 - CB - Right Cornerback 1
+- LCB2 - CB - Left Cornerback 2
+- RCB2 - CB - Right Cornerback 2
+- SS - SS - Strong Saftey
+- FS - FS - Free Safety
 
 
 All of these columns and positions are included in the spreadsheets from the link I mentioned above so it would be much easier to use those. One IMPORTANT note, within the editor, for example, you have QB1 and QB2. I thought about manually updating all the positions in the spreadsheet first but that would take forever so what I did was base the order off the OVERALL RATING in the spreadsheet. So the higher rated QB qould go into QB1, next rated QB2....and so on. One issue I found was when 2 players overall rating is the same, based on how the editor sorts it before it's imported, you could get either player as QB1. Example is Tua Tagovailoa and Teddy Bridgewater are both rated 75 so sometimes Editor makes Bridgewater QB1 which isn't correct. Easy fix is to fix it after the import then SAVE it or just edit it within the spreadsheet, just change Tua overall rating to 76 and you're done.
