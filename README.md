@@ -1,11 +1,10 @@
-#John-Madden-Football-Roster-Editor
 John Madden Football Roster Editor for Genesis/Super Nintendo
 
-Latest release: https://github.com/Goldglv/John-Madden-Football-Roster-Editor
+Latest release: https://github.com/Goldglv/John-Madden-Football-Roster-Editor/releases
 
 Features This app will enable you to update Rosters for the following Systems/Madden Football Games:
 
-Sega Genesis/Megadrive 
+**Sega Genesis/Megadrive**
 John Madden Football ('91) 
 John Madden Football '92 
 John Madden Football '93 
