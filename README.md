@@ -15,21 +15,24 @@ Features This app will enable you to update Rosters for the following Systems/Ma
 ## **Super Nintendo**
 - Madden NFL '94
 
-This also works with the Madden ‘93 ROM for Genesis that was updated to include the Jaguars and Panthers. Please contact me for further details in obtaining this ROM.
+This also works with the Madden ‘93 ROM for Genesis that was updated to include the Jaguars, Panthers, Ravens and Texans. Please contact me for further details in obtaining this ROM.  The original ROM's don't have these teams in the game so there's no way to import them from Excel.
 
 The Editor will automatically remove the checksum for all games listed above so you should have no issue running the game after you modify the ROM.
 
-How to Use Extract Application from Zip file and Double-click on it, choose any Madden game listed above and the Editor will open, showing all of the player data for each team. Choose a team you want to edit by selecting it in the dropdown on the upper left. Editor converts ratings from 0-99 to 0-15 so the game can read it. After you're done changing the player data, make sure to click SAVE, the editor is designed to update ONE TEAM AT A TIME. If you edit one team and go on to another without saving, your changes will be lost.
+How to Use Double click on the exe and choose any Madden game listed above and the Editor will open, showing all of the player data for each team. Choose a team you want to edit by selecting it in the dropdown on the upper left. Editor converts ratings from 0-99 to 0-15 so the game can read it. After you're done changing the player data, make sure to click SAVE, the editor is designed to update ONE TEAM AT A TIME (unless you use the Import From Excel feature mentioned below). If you edit one team and go on to another without saving, your changes will be lost.
 
 If you want to use the 'Import from Excel' feature you need to make sure of the following:
 
-I based my editor off the ratings from https://maddenratings.weebly.com/madden-nfl-23.html You can download all of the rosters for each team here. As of 12/22, these spreadsheets are working with my editor because the column headers match up. You must make sure that the following column headers are included in whatever spreadsheet you import from. You can have additional column headers, I just ignore them. You must use the individual rosters, please don't mix teams into 1 spreadsheet and try to use it that way. So 1 team in the editor, one spreadsheet with JUST that teams player data.
+I based my editor off the ratings from https://maddenratings.weebly.com/madden-nfl-24.html You can download all of the rosters for each team here. As of 12/24, these spreadsheets are working with my editor because the column headers match up. You must make sure that the following column headers are included in whatever spreadsheet you import from. You can have additional column headers, I just ignore them.
+
+New for v3.0, I've added the ability to update as many teams as you want at one time, you can do 1, 3 or all 32 teams with one click of the Import From Excel button.  My program will run through each team you have listed and will update as many teams as you have listed in your spreadsheet.  This makes this process even easier than with previous versions.  If it comes to a team listed in your spreadsheet that's not in the game, you will get a message.  I've added code for this to still work if you have the Titans or the Commanders in your spreadsheet, it will just update player data for the Oilers and Redskins respectively.
 
 - Agility
 - Awareness
 - Break Tackle
 - Carrying
 - Catching
+- Hit Ability
 - Jersey Number 
 - Kick Power
 - Kick Accuracy
