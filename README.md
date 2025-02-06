@@ -2,7 +2,7 @@
 
 Latest release: https://github.com/Goldglv/John-Madden-Football-Roster-Editor/releases
 
-Features This app will enable you to update Rosters for the following Systems/Madden Football Games:
+This app will enable you to update Rosters for the following Systems/Madden Football Games:
 
 ## **Sega Genesis/Megadrive**
 - John Madden Football ('91) 
@@ -25,7 +25,9 @@ If you want to use the 'Import from Excel' feature you need to make sure of the 
 
 I based my editor off the ratings from https://maddenratings.weebly.com/madden-nfl-24.html You can download all of the rosters for each team here. As of 12/24, these spreadsheets are working with my editor because the column headers match up. You must make sure that the following column headers are included in whatever spreadsheet you import from. You can have additional column headers, I just ignore them.
 
-New for v3.0, I've added the ability to update as many teams as you want at one time, you can do 1, 3 or all 32 teams with one click of the Import From Excel button.  My program will run through each team you have listed and will update as many teams as you have listed in your spreadsheet.  This makes this process even easier than with previous versions.  If it comes to a team listed in your spreadsheet that's not in the game, you will get a message.  I've added code for this to still work if you have the Titans or the Commanders in your spreadsheet, it will just update player data for the Oilers and Redskins respectively.
+I've included the maddenNFL24FullPlayerRatings.xlsx file with all 32 teams and all player ratings with the correct column headings mentioned below.  These ratings were from the beginning of the 24 season so they may not be completely up to date but if you import this file, every team in the ROM can be updated within a few seconds.  
+
+New for v3.0 and onward, I've added the ability to update as many teams as you want at one time, you can do 1, 3 or all 32 teams with one click of the Import From Excel button.  My program will run through each team you have listed and will update as many teams as you have listed in your spreadsheet.  This makes this process even easier than with previous versions.  If it comes to a team listed in your spreadsheet that's not in the game, you will get a message.  I've added code for this to still work if you have the Titans or the Commanders in your spreadsheet, it will just update player data for the Oilers and Redskins respectively.
 
 - Agility
 - Awareness
@@ -52,7 +54,7 @@ New for v3.0, I've added the ability to update as many teams as you want at one 
 
 Again, the column headers in your spreadsheet MUST MATCH EXACTLY with what's above.
 
-Also, for positions (which as of 12/22 are exactly what I'm looking for in my editor) YOU MUST MAKE SURE THEY MATCH EXACTLY below (PR/KR are not included in the spreadsheets so you can either update them manually within the editor or add them to your spreadsheet after you've downloaded them):
+Also, for positions (which as of 12/24 are exactly what I'm looking for in my editor) YOU MUST MAKE SURE THEY MATCH EXACTLY below (PR/KR are not included in the spreadsheets so you can either update them manually within the editor or add them to your spreadsheet after you've downloaded them):
 
 C/CB/DT/FB/FS/HB/K/KR/LE/LG/LOLB/LT/MLB/P/PR/QB/RE/RG/ROLB/RT/SS/TE/WR
 
