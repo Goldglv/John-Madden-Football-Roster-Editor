@@ -15,7 +15,7 @@ This app will enable you to update Rosters for the following Systems/Madden Foot
 ## **Super Nintendo**
 - Madden NFL '94
 
-This also works with the Madden ‘93 ROM for Genesis that was updated to include the Jaguars, Panthers, Ravens and Texans. Please contact me for further details in obtaining this ROM.  The original ROM's don't have these teams in the game so there's no way to import them from Excel.
+This also works with the Madden ‘93 ROM for Genesis that was updated to include the Jaguars, Panthers, Ravens and Texans. Please contact me for further details in obtaining this ROM.  I created a Madden '27 ROM with the launch ratings and uploaded it on TecmoBowl.org.  The original ROM's don't have these teams in the game so there's no way to import them from Excel.
 
 The Editor will automatically remove the checksum for all games listed above so you should have no issue running the game after you modify the ROM.
 
@@ -23,41 +23,41 @@ How to Use Double click on the exe and choose any Madden game listed above and t
 
 If you want to use the 'Import from Excel' feature you need to make sure of the following:
 
-I based my editor off the ratings from https://maddenratings.weebly.com/madden-nfl-24.html You can download all of the rosters for each team here. As of 12/24, these spreadsheets are working with my editor because the column headers match up. You must make sure that the following column headers are included in whatever spreadsheet you import from. You can have additional column headers, I just ignore them.
+I based my editor off the ratings from https://maddenratings.weebly.com/madden-nfl-24.html as well as https://www.maddenratings.net/madden-nfl-27.html.  You can download all of the rosters for each team here. As of 09/26, these spreadsheets are working with my editor because the column headers match up. You must make sure that the following column headers are included in whatever spreadsheet you import from. You can have additional column headers, I just ignore them.
 
 I've included the maddenNFL24FullPlayerRatings.xlsx file with all 32 teams and all player ratings with the correct column headings mentioned below.  These ratings were from the beginning of the 24 season so they may not be completely up to date but if you import this file, every team in the ROM can be updated within a few seconds.  
 
-New for v3.0 and onward, I've added the ability to update as many teams as you want at one time, you can do 1, 3 or all 32 teams with one click of the Import From Excel button.  My program will run through each team you have listed and will update as many teams as you have listed in your spreadsheet.  This makes this process even easier than with previous versions.  If it comes to a team listed in your spreadsheet that's not in the game, you will get a message.  I've added code for this to still work if you have the Titans or the Commanders in your spreadsheet, it will just update player data for the Oilers and Redskins respectively.
+You have the ability to update as many teams as you want at one time, you can do 1, 3 or all 32 teams with one click of the Import From Excel button.  My program will run through each team you have listed and will update as many teams as you have listed in your spreadsheet.  This makes this process even easier than with previous versions.  If it comes to a team listed in your spreadsheet that's not in the game, you will get a message.  I've added code for this to still work if you have the Titans or the Commanders in your spreadsheet, it will just update player data for the Oilers and Redskins respectively.
 
-- Agility
-- Awareness
-- Break Tackle
-- Carrying
-- Catching
-- Hit Ability
-- Jersey Number 
-- Kick Power
-- Kick Accuracy
-- Man Coverage
-- Overall Rating
-- Pass Block
+The column headers in your spreadsheet MUST MATCH either of the below values EXACTLY.
+
+- Agility/AgilityRating
+- Awareness/AwarenessRating
+- Break Tackle/BreakTackleRating
+- Carrying/CarryingRating
+- Catching/CatchingRating
+- Hit Power/HitPowerRating
+- Jersey Number/JerseyNum
+- Kick Power/KickPowerRating
+- Kick Accuracy/KickAccuracyRating
+- Man Coverage/ManCoverageRating
+- Overall Rating/OverallRating
+- Pass Block/PassBlockRating
 - Position
-- Pursuit
-- Run Block
-- Speed
-- Tackle
+- Pursuit/PursuitRating
+- Run Block/RunBlockRating
+- Speed/SpeedRating
+- Strength/StrengthRating
+- Tackle/TackleRating
 - Team
-- Throw Accuracy Middle
-- Throw On The Run
-- Throw Power
+- Throw Accuracy Middle/Throw Accuracy Middle/ThrowAccuracyMidRating
+- Throw On The Run/ThrowOnTheRunRating
+- Throw Power/ThrowPowerRating
 - Weight
 
-Again, the column headers in your spreadsheet MUST MATCH EXACTLY with what's above.
+Also, for positions (which as of 09/26 are exactly what I'm looking for in my editor) YOU MUST MAKE SURE THEY MATCH EXACTLY to the values below like 'RE' or REDG' or the RIght Defensive End.  If the Madden version handles PR/KR and they are not included in the spreadsheets you can either add them manually within the editor or add them to your spreadsheet after you've downloaded them.  I've also added logic in the latest version to use WR3 as the KR/PR if they're not in the spreadsheet.  
 
-Also, for positions (which as of 12/24 are exactly what I'm looking for in my editor) YOU MUST MAKE SURE THEY MATCH EXACTLY below (PR/KR are not included in the spreadsheets so you can either update them manually within the editor or add them to your spreadsheet after you've downloaded them):
-
-C/CB/DT/FB/FS/HB/K/KR/LE/LG/LOLB/LT/MLB/P/PR/QB/RE/RG/ROLB/RT/SS/TE/WR
-
+Below are the mappings from the editor to the incoming spreadsheet, for example, 'LE' or 'LEDG' will be used to popultae the 'LDE' in the editor.
 ## **Editor/Spreadsheet/Positon Name**
 
 - QB - QB - Quarterback
@@ -68,20 +68,20 @@ C/CB/DT/FB/FS/HB/K/KR/LE/LG/LOLB/LT/MLB/P/PR/QB/RE/RG/ROLB/RT/SS/TE/WR
 - LT - LT - Left Tackle
 - LG - LG - Left Guard
 - C - C - Center
-- RG - RG - RIght Guard
+- RG - RG - Right Guard
 - RT - RT - Right Tackle
 - WR - WR - Wide Receiver
 - TE - TE - Tight End
 - K - K - Kicker
 - P - P - Punter
-- LDE - LE - Left Defensive End
+- LDE - (LE, LEDG) - Left Defensive End
 - LDT - DT - Left Defensive Tackle
 - RDT - DT - Right Defensive Tackle
-- RDE - RE - Right Defensive End
-- LOLB - LOLB - Left Outside Linebacker
-- LILB - MLB - Left Inside Linebacker
-- RILB - MLB - Right Inside Linebacker
-- ROLB - ROLB - Right Outside Linebacker
+- RDE - (RE, REDG) - Right Defensive End
+- LOLB - (LOLB, SAM) - Left Outside Linebacker
+- LILB - (MLB, MIKE) - Left Inside Linebacker
+- RILB - (MLB, MIKE) - Right Inside Linebacker
+- ROLB - (ROLB, WILL) - Right Outside Linebacker
 - LCB1 - CB - Left Cornerback 1
 - RCB1 - CB - Right Cornerback 1
 - LCB2 - CB - Left Cornerback 2
@@ -89,7 +89,6 @@ C/CB/DT/FB/FS/HB/K/KR/LE/LG/LOLB/LT/MLB/P/PR/QB/RE/RG/ROLB/RT/SS/TE/WR
 - SS - SS - Strong Saftey
 - FS - FS - Free Safety
 
-
-All of these columns and positions are included in the spreadsheets from the link I mentioned above so it would be much easier to use those. One IMPORTANT note, within the editor, for example, you have QB1 and QB2. I thought about manually updating all the positions in the spreadsheet first but that would take forever so what I did was base the order off the OVERALL RATING in the spreadsheet. So the higher rated QB would go into QB1, next rated QB2....and so on. One issue I found was when 2 players overall rating is the same, based on how the editor sorts it before it's imported, you could get either player as QB1. Example is Tua Tagovailoa and Teddy Bridgewater are both rated 75 so sometimes the editor makes Bridgewater QB1 which isn't correct. Easy fix is to fix it after the import then SAVE it or just edit it within the spreadsheet, just change Tua overall rating to 76 and you're done.
+All of these columns and positions are included in the spreadsheets from the link I mentioned above so it would be much easier to use those. One IMPORTANT note, within the editor, for example, you have QB1 and QB2. I thought about manually updating all the positions in the spreadsheet first but that would take forever so what I did was base the order off the OVERALL RATING in the spreadsheet. So the higher rated QB would go into QB1, next rated QB2....and so on. One issue I found was when 2 players overall rating is the same, based on how the editor sorts it before it's imported, you could get either player as QB1. Easy fix is to fix it after the import then SAVE it or just edit it within the spreadsheet, just change whatever QB you'd prefer to start to a higher overall rating and you're done.
 
 Please contact me with any bugs or anything else you would like to see in the Editor. Adding the Importing from Excel should speed up the process even more, hope this helps anyone out there who loves the older Madden games as much as I do.
